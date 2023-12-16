@@ -19,8 +19,7 @@
       <button class="navbar-toggler navbar-toggler-right fade-in-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars ml-1"></i>
+        <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse fade-in-right" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
@@ -32,7 +31,6 @@
       </div>
     </div>
   </nav>
-  <!-- Masthead-->
   <header class="masthead">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000"
       data-pause="false">
@@ -51,17 +49,13 @@
             </div>
           </a>
         </div>
-
-        <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),url('assets/img/main/hero2.jpeg');background-position: center;background-size: cover;"">
           <div class="carousel-caption ">
             <h2 class="display-4-3"></h2>
             <p class="lead-3"></p>
           </div>
         </div>
-
-        <!-- Slide Four - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),url('assets/img/main/hero1.jpeg');background-position: center;background-size: cover;">
+        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),url('assets/img/main/hero3.jpeg');background-position: center;background-size: cover;">
           <div class="carousel-caption ">
             <h2 class="display-4-4"></h2>
             <p class="lead-4"></p>
@@ -82,75 +76,72 @@
     <div class="container text-center first">
       <img src="assets/img/Events/event2.jpeg" alt="event 2" height="550px" width="550px"> <br> <br><br>
       <a target="_blank" href="#"><button data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#709762;color:white;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Participez maintenant</button></a>
-     <!DOCTYPE html>
-<html>
-<head>
- <title>timer</title>
-</head>
-<body>
-  <br><br>
-<center>
-<h1>Vite ! Fin des inscriptions dans...</h1>
-<table style="border:1px solid black;text-align:center;">
- <tr style="font-size:60px;">
-  <td id="days"><center>00</center></td>
-  <td id="hours"><center>00</center></td>
-  <td id="min"><center>00</center></td>
-  <td id="sec"><center>00</center></td>
- </tr>
- <tr>
-  <td><center> &ensp;&ensp;&ensp;&ensp;Days &ensp;&ensp;&ensp;&ensp;</center></td>
-  <td><center> &ensp;&ensp;&ensp;&ensp;Hours &ensp;&ensp;&ensp;&ensp;</center></td>
-  <td><center> &ensp;&ensp;&ensp;&ensp;Minutes &ensp;&ensp;&ensp;&ensp;</center></td>
-  <td><center> &ensp;&ensp;&ensp;&ensp;Seconds &ensp;&ensp;&ensp;&ensp;</center></td>
- </tr>
-</table>
+      <!DOCTYPE html>
+      <html>
+      <head>
+      <title>timer</title>
+      </head>
+      <body>
+        <br><br>
+      <center>
+      <h1>Vite ! Fin des inscriptions dans...</h1>
+      <table style="border:1px solid black;text-align:center;">
+      <tr style="font-size:60px;">
+        <td id="days"><center>00</center></td>
+        <td id="hours"><center>00</center></td>
+        <td id="min"><center>00</center></td>
+        <td id="sec"><center>00</center></td>
+      </tr>
+      <tr>
+        <td><center> &ensp;&ensp;&ensp;&ensp;Days &ensp;&ensp;&ensp;&ensp;</center></td>
+        <td><center> &ensp;&ensp;&ensp;&ensp;Hours &ensp;&ensp;&ensp;&ensp;</center></td>
+        <td><center> &ensp;&ensp;&ensp;&ensp;Minutes &ensp;&ensp;&ensp;&ensp;</center></td>
+        <td><center> &ensp;&ensp;&ensp;&ensp;Seconds &ensp;&ensp;&ensp;&ensp;</center></td>
+      </tr>
+      </table>
 
-</center>
+      </center>
 
-<script type="text/javascript">
- var x = new Date();
- var y = x.getTime();
- var total = y + (2.5*24*3600000);
- function count()
- {
-  var now = new Date();
-  var currentTime = now.getTime();
+      <script type="text/javascript">
+      var x = new Date();
+      var y = x.getTime();
+      var total = y + (2.5*24*3600000);
+      function count()
+      {
+        var now = new Date();
+        var currentTime = now.getTime();
 
-   var diff = total - currentTime;
-   var s = Math.floor(diff/1000);
-   var m = Math.floor(s/60);
-   var h = Math.floor(m/60);
-   var d = Math.floor(h/24);
+        var diff = total - currentTime;
+        var s = Math.floor(diff/1000);
+        var m = Math.floor(s/60);
+        var h = Math.floor(m/60);
+        var d = Math.floor(h/24);
 
-  h=h%24;
-  m=m%60;
-  s=s%60;
+        h=h%24;
+        m=m%60;
+        s=s%60;
 
-  h=(h<10)?"0"+h:h;
-  m=(m<10)?"0"+m:m;
-  s=(s<10)?"0"+s:s;
-  d=(d<10)?"0"+d:d;
+        h=(h<10)?"0"+h:h;
+        m=(m<10)?"0"+m:m;
+        s=(s<10)?"0"+s:s;
+        d=(d<10)?"0"+d:d;
 
-  document.getElementById("days").innerHTML=d;
-  document.getElementById("hours").innerHTML= h;
-  document.getElementById("min").innerHTML= m;
-  document.getElementById("sec").innerHTML= s;
-  setTimeout(count,1000);
- }
- count();
-</script>
-</body>
-</html>
-	</div>
-  </section>
-  <!-- About-->
-  
+        document.getElementById("days").innerHTML=d;
+        document.getElementById("hours").innerHTML= h;
+        document.getElementById("min").innerHTML= m;
+        document.getElementById("sec").innerHTML= s;
+        setTimeout(count,1000);
+      }
+      count();
+      </script>
+      </body>
+      </html>
+	  </div>
+  </section>  
   <section class="page-section fadein" id="about">
     <div class="container">
       <div class="row">
         <div class="col-md-7">
-
           <h1 class='text-success'>À Propos</h1>
           <h2></h2>
           <hr>
@@ -158,8 +149,6 @@
           <p> Le club a pour objectifs de promouvoir l'informatique et l'innovation au Maroc, de développer les compétences des étudiants en informatique et de créer des opportunités de networking pour les étudiants.
           </p>
           <p>Il organise des activités variées, notamment des conférences, des hackathons, des compétitions de programmation et des projets de recherche et de développement.</p>
-
-
         </div>
         <div class="col-md-5">
           <img class="camera-img" src="assets/img/about/people-and-camera.png" alt="">
@@ -173,29 +162,23 @@
         <h2 class="section-heading text-uppercase">Moments Capturés</h2>
         <h3 class="section-subheading text-muted"> Explorez visuellement les moments mémorables capturés au sein de notre club universitaire. Cette galerie offre un aperçu vibrant de nos activités, événements et projets, reflétant la diversité et l'énergie de notre communauté.</h3>
       </div>
-
       <div class="container">
         <div class="row">
-          <!-- Feature 1 -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card-feature border-0 shadow">
                 <img src="assets/img/evenements/1.jpeg" class="card-feature-img-top" alt="1-1"></a>
             </div>
           </div>
-          <!-- Feature 2 -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card-feature border-0 shadow">
                 <img src="assets/img/evenements/2.jpeg" class="card-feature-img-top" alt="1-2"></a>
             </div>
           </div>
-
-          <!-- Feature 3 -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card-feature border-0 shadow">
                 <img src="assets/img/evenements/3.jpeg" class="card-feature-img-top" alt="1-3"></a>
             </div>
           </div>
-          <!-- Feature 4 -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card-feature border-0 shadow">
                 <img src="assets/img/evenements/4.jpeg" class="card-feature-img-top" alt="1-4"></a>
@@ -203,28 +186,23 @@
           </div>
         </div>
       </div>
-      <!--Feature Row 2-->
       <div class="container">
         <div class="row">
-          <!-- Feature 1 -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card-feature border-0 shadow">
                 <img src="assets/img/evenements/5.jpeg" class="card-feature-img-top" alt="2-1"></a>
             </div>
           </div>
-          <!-- Feature 2 -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card-feature border-0 shadow">
                 <img src="assets/img/evenements/6.jpeg" class="card-feature-img-top" alt="2-2">
             </div>
           </div>
-          <!-- Feature 3 -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card-feature border-0 shadow">
                 <img src="assets/img/evenements/7.png" class="card-feature-img-top" alt="2-3">
             </div>
           </div>
-          <!-- Feature 4 -->
           <div class="col-lg-3 col-md-4 col-6">
             <div class="card-feature border-0 shadow">
               <img src="assets/img/Events/event3.png" class="card-feature-img-top" alt="2-4">
@@ -235,8 +213,6 @@
 
 
   </section>
-
-  <!-- Events and Workshops-->
   <section class="page-section" id="events">
     <div class="container">
       <div class="text-center">
@@ -474,7 +450,7 @@
                 class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
-		<div class="col-lg">
+		  <div class="col-lg">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="assets/img/membres/hiba.jpeg" alt="" />
             <h4>Hiba Dehhaoui</h4>
@@ -485,40 +461,61 @@
                 class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
+        <div class="col-lg">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="assets/img/membres/youssef.jpeg" alt="" />
+            <h4>Youssef Elmnisri</h4>
+            <p class="text-muted">Conseiller</p>
+            <a class="btn btn-dark btn-social mx-2" href=""><i
+                class="fab fa-instagram"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href=""><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-lg">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/membres/aya.jpeg" alt="" />
+              <h4>Aya Lkhssim</h4>
+              <p class="text-muted">Vice Respo Sponsoring</p>
+              <a class="btn btn-dark btn-social mx-2" href=""><i
+                  class="fab fa-instagram"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href=""><i
+                  class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        <div class="col-lg">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/membres/marwa.jpeg" alt="" />
+              <h4>Marwa Yousfi</h4>
+              <p class="text-muted">Respo Organisation</p>
+              <a class="btn btn-dark btn-social mx-2" href=""><i
+                  class="fab fa-instagram"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href=""><i
+                  class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
       </div>
 </section>
 <footer class="text-center text-white" style="background-color: #343a40">
-  <!-- Grid container -->
   <div class="container pt-2">
-    <!-- Section: Social media -->
     <section class="mb-2" style="padding: 0;">
-      <!-- Instagram -->
       <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://www.instagram.com/l.egacies__/" target="_blank" role="button"
         data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-
-      <!-- Linkedin -->
       <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://www.linkedin.com/company/l-egacies/" role="button" target="_blank"
         data-mdb-ripple-color="dark"><i class="fab fa-linkedin-in"></i></a>
-      
     </section>
-    <!-- Section: Social media -->
   </div>
-
   <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2023 Copyright: <b>LEGACIES</b>
   </div>
-
 </footer>
-  <!-- Bootstrap core JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-  <!-- Third party plugin JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  <!-- Contact form JS-->
   <script src="assets/mail/jqBootstrapValidation.js"></script>
   <script src="assets/mail/contact_me.js"></script>
-  <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
 </body>
-
 </html>

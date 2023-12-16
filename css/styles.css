@@ -2106,7 +2106,8 @@ pre code {
 }
 @media (max-width: 767.98px) {
   .first img {
-    width: 100%;
+    width: 95%;
+    height: 30em;
   }
   .table-responsive-md {
     display: block;
@@ -10901,8 +10902,8 @@ header .carousel-item {
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
+  width: 12rem;
+  height: 13rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4 {
