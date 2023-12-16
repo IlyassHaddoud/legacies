@@ -11187,8 +11187,9 @@ pills-peach-gradient nav-item nav-link active {
 
 @media (max-width: 992px) {
   .navbar-nav {
-    padding-top: 40px;
+    padding-block: 40px;
     gap: 30px;
+    text-align: center;
   }
   .carousel-item.active,
   .carousel-item-next,
